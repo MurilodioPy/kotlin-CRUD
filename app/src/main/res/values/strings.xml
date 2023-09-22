@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">salao</string>
+    <string name="Nome" />
+    <string name="digite_o_nome">Nome</string>
+    <string name="inserir_novo_nome">Inserir</string>
+    <string name="onibus">Ônibus</string>
+    <string name="carro">Carro</string>
+    <string name="caminhao">Caminhão</string>
+    <string name="nome">Nome</string>
+    <string name="fabricante">Fabricante</string>
+    <string name="banheiro">Banheiro</string>
+    <string name="completo">Completo</string>
+    <string name="remover">Remover</string>
+    <string name="toneladas">Toneladas:</string>
+    <string name="n_mero_do_item_deletado">Número do item deletado/editado:</string>
+    <string name="qtd_lugares">Qtd Lugares:</string>
+    <string name="fabricante_name">Fabricante:</string>
+    <string name="nome_nome">Nome:</string>
+    <string name="autom_vel">Automóvel</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lv_autos"
+        android:layout_width="247dp"
+        android:layout_height="194dp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="537dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/ed_item_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+    </ListView>
+
+    <Button
+        android:id="@+id/bt_inserir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inserir_novo_nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_remover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="291dp"
+        android:layout_height="180dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/rd_Bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/onibus" />
+
+        <RadioButton
+            android:id="@+id/rd_Car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/carro" />
+
+        <RadioButton
+            android:id="@+id/rd_Truck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caminhao" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_nome_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/nome"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_fabricante_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/fabricante"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ed_number_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="326dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cb_completo_id"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:text="@string/completo"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="371dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/cb_banheiro_id"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:text="@string/banheiro"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="425dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
